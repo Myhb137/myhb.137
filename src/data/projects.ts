@@ -1,3 +1,4 @@
+
 export interface Project {
   n: string;
   name: string;
@@ -37,7 +38,7 @@ export const projects: Project[] = [
     problem:
       "Users struggle to plan outings due to fragmented information across maps, reviews, and blogs.",
     built:
-      "AI-powered assistant that recommends places and generates itineraries using structured data and LLM-based conversational interface.",
+      "AI-powered assistant that recommends places and generates itineraries using structured data and an LLM-based conversational interface.",
     tech: ["React", "TypeScript", "Tailwind", "Gemini"],
     impact:
       "Built full product loop: data layer, AI reasoning system, and conversational UX.",
@@ -112,5 +113,21 @@ export const projects: Project[] = [
     impact:
       "Delivered production-ready design system used for MVP development.",
     link: "https://github.com/Myhb137/Algeria-VR-tour",
+  },
+  {
+    n: "08",
+    name: "Oraviro — AI Business Agent",
+    tag: "Agentic AI · Business Automation",
+    year: "2026",
+    problem:
+      "Businesses can lose potential clients when inquiries go unanswered or prospects struggle to understand services and find the right solutions.",
+    built:
+      "Developed an AI-powered business assistant designed to explain services, answer prospect questions, qualify leads through conversational interactions, and support automated business inquiry workflows.",
+    tech: ["Python", "LangChain", "Groq", "LLMs", "Telegram Bot API"],
+    impact:
+      "Built an AI agent prototype connecting conversational AI with practical business workflows and automated lead qualification.",
+    link: "https://github.com/Myhb137/oraviro-ai-agent",
+    demo: "https://oraviro-app.vercel.app/",
+    featured: false,
   },
 ];
